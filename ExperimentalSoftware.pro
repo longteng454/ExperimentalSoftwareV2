@@ -15,8 +15,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        widget.cpp
+        widget.cpp \
+    triopc.cpp
 
-HEADERS  += widget.h
+HEADERS  += widget.h \
+    triopc.h
 
 FORMS    += widget.ui
